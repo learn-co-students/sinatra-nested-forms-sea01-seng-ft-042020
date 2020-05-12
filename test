@@ -1,0 +1,14 @@
+<h1>Display your Pirate here</h1>
+<%@pirate.each do |k, v|%>
+<%= "#{k}: #{v}" %>
+<%end%>
+
+<h2>Display your first ship here</h2>
+<%@ships[0].each do |k, v|%>
+<%= "#{k}: #{v}" %>
+<%end%>
+
+<h2>Display your second ship here</h2>
+<%@ships[1].each do |k, v|%>
+<%= "#{k}: #{v}" %>
+<%end%>
